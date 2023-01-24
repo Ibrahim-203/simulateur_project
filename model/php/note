@@ -1,0 +1,6 @@
+# Get the type of file
+echo $_FILES['image_cat']['type'];
+# Get size of file
+echo $_FILES['image_cat']['size'];
+
+echo $_FILES['image_cat']['tmp_name'] ;
